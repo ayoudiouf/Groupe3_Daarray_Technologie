@@ -388,5 +388,44 @@ function RechercherFormations(recherche) {
 
 
 
-// la fonction qui filtre les formations par leur etat(payant ou gratuit)
+// la fonction qui filtre les formations par etat(payant ou gratuit)
 
+function filtrer(filtre){
+    allcards.innerHTML = "";
+    if(filtre!="tout"){
+        formations.forEach(formation => {
+            if (formation.etat.toLowerCase()==filtre.toLowerCase()){
+                allcards.innerHTML += `
+                <div class="col">
+                            <div class="card" id="card">
+                                <img src="${formation.image}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+            
+                                        <h5 class="card-title">${formation.titre}</h5>
+                                        <!-- <div class="">
+                                            Gratuit
+                                        </div> -->
+                                        <span>${formation.etat}</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-3">
+                                        
+                                        <p class="card-text w-75">Une formation qui vous immerge
+                                            dans les bonnes pratiques du 
+                                            language.</p>
+                                            <i class="bi bi-chat-dots"></i>
+                                    </div>
+                                </div>
+                                <div class="card-button">
+                                    <button>Voir plus</button>
+                                </div>
+                            </div>
+                        </div>
+                `;
+            }
+        })
+    }else{
+        AfficherFormations();
+    }
+
+}
