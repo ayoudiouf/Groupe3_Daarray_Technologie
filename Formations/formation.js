@@ -43,7 +43,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/e-vReV3nLxw?si=0Sv-V8V2Ie62KKRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Cette formation PHP s’adresse aux développeurs et chefs de projet amenés à gérer de A à Z un projet web dynamique en PHP. Le public visé désire donc connaître les fonctionnalités essentielles d’un site ou d’une application web : la structure « brute » mais aussi le traitement des formulaires, les paramètres de navigation, l’accès à la base de données, les notions de sécurité…"
+        etat: "gratuit",
+        description: "Cette formation PHP s’adresse aux développeurs et chefs de projet amenés à gérer de A à Z un projet web dynamique en PHP. Le public visé désire donc connaître les fonctionnalités essentielles d’un site ou d’une application web : la structure « brute » mais aussi le traitement des formulaires, les paramètres de navigation, l’accès à la base de données, les notions de sécurité…"
     },
     {
         id: 2,
@@ -72,7 +73,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/StnSed-Euj0?si=yXCAgPptXgCTs3Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Au cœur du métier de la maîtrise d’ouvrage se trouve l’expression des besoins et le cahier des charges fonctionnels d’une application. Pour garantir la qualité de la mise en œuvre, une bonne représentation du système à développer passe par la modélisation des processus métier. A l’aide de ce cours pratique, vous découvrirez les principaux diagrammes de modélisation UML 2.0 pour être en mesure de décrire les informations et les processus du système ciblé. "
+        etat: "gratuit",
+        description: "Au cœur du métier de la maîtrise d’ouvrage se trouve l’expression des besoins et le cahier des charges fonctionnels d’une application. Pour garantir la qualité de la mise en œuvre, une bonne représentation du système à développer passe par la modélisation des processus métier. A l’aide de ce cours pratique, vous découvrirez les principaux diagrammes de modélisation UML 2.0 pour être en mesure de décrire les informations et les processus du système ciblé. "
     },
     {
         id: 3,
@@ -101,7 +103,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/IPXxJFJaY8g?si=uXsud0qnGDu0iDXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Le langage JavaScript est incontournable lorsque vous souhaitez travailler sur des sites ou application web. Du fait de son passé et de sa mauvaise réputation, il a été largement sous-estimé par les développeurs qui ne voyaient en lui qu’un simple langage de manipulation HTML et de validation de formulaire. Les choses ont bien changé, il est maintenant absolument nécessaire de considérer JavaScript comme un langage de premier plan"
+        etat: "gratuit",
+        description: "Le langage JavaScript est incontournable lorsque vous souhaitez travailler sur des sites ou application web. Du fait de son passé et de sa mauvaise réputation, il a été largement sous-estimé par les développeurs qui ne voyaient en lui qu’un simple langage de manipulation HTML et de validation de formulaire. Les choses ont bien changé, il est maintenant absolument nécessaire de considérer JavaScript comme un langage de premier plan"
     },
     {
         id: 4,
@@ -130,7 +133,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/P5biY6vWN4k?si=FTxD7sXOoitO8pg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Ayant suivi d'autres cours connexes sur d'autres plateformes, je peux dire que ce cours est le cours le plus pratique et le plus facilement applicable en matière de conception et de développement de sites web que j'ai suivi.Bernie Pacis"
+        etat: "gratuit",
+        description: "Ayant suivi d'autres cours connexes sur d'autres plateformes, je peux dire que ce cours est le cours le plus pratique et le plus facilement applicable en matière de conception et de développement de sites web que j'ai suivi.Bernie Pacis"
     },
     {
         id: 5,
@@ -159,7 +163,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kCKCyyWT3B4?si=u6Xe2Z6Jkpwa2kVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"CSS - abréviation pour CClading S tyle S heets - est un langage de programmation que vous utilisez pour transformer vos pages HTML brutes en véritables sites web. Ce cours couvre tout - nous commençons par les bases même (Qu'est-ce que le CSS? Comment cela fonctionne-t-il ? Comment l'utilisez-vous)? et plongez-vous progressivement plus profondément et plus profondément. Et nous le faisons en montrant à la fois des exemples pratiques ainsi que la théorie qui le sous-tend"
+        etat: "gratuit",
+        description: "CSS - abréviation pour CClading S tyle S heets - est un langage de programmation que vous utilisez pour transformer vos pages HTML brutes en véritables sites web. Ce cours couvre tout - nous commençons par les bases même (Qu'est-ce que le CSS? Comment cela fonctionne-t-il ? Comment l'utilisez-vous)? et plongez-vous progressivement plus profondément et plus profondément. Et nous le faisons en montrant à la fois des exemples pratiques ainsi que la théorie qui le sous-tend"
     },
     {
         id: 6,
@@ -188,7 +193,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/z-YYljAix4k?si=YYez2jjwdCTGGcob" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Rejoignez le cours Angular le plus complet et le plus vendu  et apprenez tout sur ce cadre incroyable à partir de zéro, en grande profondeur.Ce cours part de zéro, vous n'avez pas besoin de connaître Angular 1 ni Angular 2,De la mise en place au déploiement, ce cours couvre tout. Vous en apprendrez tout sur les composants, les directives, les services, les formulaires, l'accès Http, l'authentification, l'optimisation d'une application angulaire avec des modules et la compilation hors ligne et bien plus encore - et en fin de compte: vous apprendrez comment déployer une application"
+        etat: "gratuit",
+        description: "Rejoignez le cours Angular le plus complet et le plus vendu  et apprenez tout sur ce cadre incroyable à partir de zéro, en grande profondeur.Ce cours part de zéro, vous n'avez pas besoin de connaître Angular 1 ni Angular 2,De la mise en place au déploiement, ce cours couvre tout. Vous en apprendrez tout sur les composants, les directives, les services, les formulaires, l'accès Http, l'authentification, l'optimisation d'une application angulaire avec des modules et la compilation hors ligne et bien plus encore - et en fin de compte: vous apprendrez comment déployer une application"
     },
     {
         id: 7,
@@ -217,11 +223,12 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/_eG9Q2RRJVE?si=a4EodmkqTAque1WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Rejoignez ce cours à succès pour apprendre à utiliser les technologies de développement angulaire et web pour construire de vraies applications mobiles natives pour iOS et Android.Ionic est l'une des technologies les plus excitantes que vous puissiez apprendre en ce moment - elle vous permet d'utiliser une base de code (écrite en HTML, JS et CSS) pour construire et expédier des applications web comme des applications web normales (progressives) ainsi que de vraies applications mobiles natives pour iOS et Android. Ce cours vous enseigne la dernière version d'Ionic à partir de zéro sans avoir de connaissance préalable à ce sujet."
+        etat: "gratuit",
+        description: "Rejoignez ce cours à succès pour apprendre à utiliser les technologies de développement angulaire et web pour construire de vraies applications mobiles natives pour iOS et Android.Ionic est l'une des technologies les plus excitantes que vous puissiez apprendre en ce moment - elle vous permet d'utiliser une base de code (écrite en HTML, JS et CSS) pour construire et expédier des applications web comme des applications web normales (progressives) ainsi que de vraies applications mobiles natives pour iOS et Android. Ce cours vous enseigne la dernière version d'Ionic à partir de zéro sans avoir de connaissance préalable à ce sujet."
     },
     {
         id: 8,
-        image: "https://brandslogos.com/wp-content/uploads/images/large/react-logo-1.png",
+        image: "https://www.loginradius.com/blog/static/00a89fc56461ea1529439d89072c93f1/701ee/react.jpg",
         titre: "REACT",
         introduction: "Une formation qui vous immerge dans les bonnes pratiques du language.",
         videos: [
@@ -246,7 +253,8 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ktms8hrJ-Tk?si=JIOJAGwPqbT-skjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"En 2023, React est toujours la compétence numéro un pour apprendre si vous voulez devenir un développeur frontal à succès. Mais cela peut être difficile. Il y a tellement de parties mobiles, tellement de bibliothèques différentes, autant de tutoriels là-bas.C'est pourquoi vous êtes venu ici... Et vous êtes venu au bon endroit. C'est LA React ultime pour 2023 et au-delà."
+        etat: "gratuit",
+        description: "En 2023, React est toujours la compétence numéro un pour apprendre si vous voulez devenir un développeur frontal à succès. Mais cela peut être difficile. Il y a tellement de parties mobiles, tellement de bibliothèques différentes, autant de tutoriels là-bas.C'est pourquoi vous êtes venu ici... Et vous êtes venu au bon endroit. C'est LA React ultime pour 2023 et au-delà."
     },
     {
         id: 9,
@@ -275,6 +283,45 @@ let formations = [
                 contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/FlmQT9W3lxM?si=VcOhYQkpftA8QLX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
-        description:"Formation avec de la pratique pour maîtriser toutes les tâches d'administration d'un serveur de bases de données MySQL. Vous verrez comment installer le serveur, le configurer, comment paramétrer InnoDB, gérer les droits d'accès, effectuer des sauvegardes/restaurations et gérer la production. "
+        etat: "gratuit",
+        description: "Formation avec de la pratique pour maîtriser toutes les tâches d'administration d'un serveur de bases de données MySQL. Vous verrez comment installer le serveur, le configurer, comment paramétrer InnoDB, gérer les droits d'accès, effectuer des sauvegardes/restaurations et gérer la production. "
     }
 ]
+
+// debut de la logique de l'injection des formations
+let allcards = document.getElementById('all-cards');
+
+
+function AfficherFormations() {
+    formations.forEach(formation => {
+        allcards.innerHTML += `
+        <div class="col">
+                    <div class="card" id="card">
+                        <img src="${formation.image}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+    
+                                <h5 class="card-title">${formation.titre}</h5>
+                                <!-- <div class="">
+                                    Gratuit
+                                </div> -->
+                                <span>Gratuit</span>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                
+                                <p class="card-text w-75">Une formation qui vous immerge
+                                    dans les bonnes pratiques du 
+                                    language.</p>
+                                    <i class="bi bi-chat-dots"></i>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button>Voir plus</button>
+                        </div>
+                    </div>
+                </div>
+        `;
+    })
+}
+
+AfficherFormations()
