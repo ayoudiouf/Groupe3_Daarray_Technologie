@@ -45,7 +45,11 @@ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border: 1px #FF7F00 solid;
     color: #FF7F00;
 }
-.frecherche input#fborder::placeholder{
+.frecherche #champs_recherche{
+    border: 1px #FF7F00 solid;
+    color: #FF7F00;
+}
+.frecherche input#champs_recherche::placeholder{
     color: #FF7F00;
 }
 
