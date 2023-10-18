@@ -4,6 +4,12 @@
 nav {
     background-color: #000000;
     color: #FF7F00;
+    width: 100%;
+}
+
+nav#nav{
+    width: 100%;
+    position: fixed;
 }
 
 /* separateur du menu fixé au contenu  */
@@ -54,7 +60,7 @@ footer {
     height: 350px;
     width: 100%;
     background-color: #000000;
-    margin-top: 800px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -158,48 +164,24 @@ footer .footer-item:nth-child(1) .social-link i {
         padding-top: 50px;
         padding-right: 0px;
         padding-bottom: 20px;
+        width: 100%;
 
     }
 
     footer .footer-item {
         width: 100%;
-        /* background-color: red; */
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    footer .footer-item h4{
+        
+    }
+    footer .footer-item a:not(.footer-item:nth-child(1) a){
+        margin-left: 20px;
     }
     footer .footer-item:nth-child(5){
         width: 80%;
        margin: 0 auto;
        text-align: center;
     }
-    footer .footer-item:nth-child(1) {
-        display: flex;
-        justify-content: space-between;
-        height: 200px;
-    }
-
-    footer .footer-item:nth-child(1) a {
-        text-align: center;
-    }
-
-    footer .footer-item:nth-child(1) a img {
-        height: 150px;
-    }
-
-    footer .footer-item:nth-child(1) .social-link {
-        width: 40%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    footer .footer-item:nth-child(1) .social-link i {
-        color: white;
-        font-size: 20px;
-    }
-
 }
 /***** End reponsive code *****/
