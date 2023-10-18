@@ -172,9 +172,7 @@ footer .footer-item:nth-child(1) .social-link i {
         width: 100%;
         padding-bottom: 20px;
     }
-    footer .footer-item h4{
-        
-    }
+
     footer .footer-item a:not(.footer-item:nth-child(1) a){
         margin-left: 20px;
     }
