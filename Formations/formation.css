@@ -1,0 +1,85 @@
+.banniere{
+    height: 400px;
+    width: 100%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(red, green, blue, alpha); */
+}
+.banniere img{
+    height: 100%;
+    width: 100%;
+}
+
+/* css for titiles */
+.f-title{
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.f-title::after{
+    content: '';
+   width: 200px;
+   border-bottom: 2px #FF7F00 solid;
+   display: block;
+    margin: 0 auto;
+}
+.f-title h4 span{
+    color: #FF7F00;;
+}
+
+.formation{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.frecherche button{
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF7F00;
+}
+.frecherche #fborder{
+    border: 1px #FF7F00 solid;
+    color: #FF7F00;
+}
+.frecherche input#fborder::placeholder{
+    color: #FF7F00;
+}
+
+
+
+/* cards  */
+#card img{
+    border-radius: 20px 20px 10px 10px;
+}
+#card{
+    border-radius: 20px 20px 10px 10px;
+    padding-bottom: 20px;
+}
+#card .card-button{
+    width: 90%;
+    margin: 0 auto;
+}
+#card .card-button button{
+    border: 1px #FF7F00 solid;
+    width: 100%;
+    background-color: transparent;
+    color: #FF7F00;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#card .card-body span{
+   color: #73C68F;
+   border: 1px #73C68F solid;
+   padding: 2px;
+   border-radius: 5px;
+}
+#card .card-body i{
+   color: #FF7F00;
+   font-size: 30px;
+}
+
