@@ -439,14 +439,16 @@ function filtrer(filtre) {
 
 }
 
-// la fonction qui recherche une formation par id 
+// la fonction qui recherche une formation par id et la place dans le localStorage ce qui permettra par la suite de l'afficher dans la page détailFormation.html
+
 function FindFormation(id) {
     formations.forEach(formation => {
         if (formation.id == id) {
-            // return formation;
-            // return formation;
-            console.log(formation)
-            alert(formation.titre)
+            
+            window.location.href="details_formation.html";
+           
+            // alert('hell')
+            localStorage.setItem('formationSelected',JSON.stringify(formation))
         }
     })
 }

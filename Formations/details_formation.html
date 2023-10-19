@@ -72,7 +72,7 @@
 
     <div class="f-title">
         <h4>
-            La formation en <span>PHP</span>
+            La formation en <span id="formation-title">PHP</span>
         </h4>
     </div>
 
@@ -233,5 +233,12 @@
     <!-- ========== End footer ========== -->
 </body>
 <script src="formation.js"></script>
+
+
+<script>
+    let formation_title = document.getElementById('formation-title');
+    let formation = JSON.parse(localStorage.getItem("formationSelected"));
+    formation_title.innerHTML =formation.titre;
+</script>
 
 </html>
