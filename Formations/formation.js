@@ -328,7 +328,7 @@ AfficherFormations()
 
 // la fonction qui affiche les detail de la formation
 function detailFormation(id) {
-    alert(id)
+    // alert(id)
     FindFormation(id);
     // console.log(FindFormation(id));
     // window.location.href = "details_formation.html";
