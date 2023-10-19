@@ -166,4 +166,9 @@ padding-left: 40px;
         border-bottom: 2px solid var(--orangelogo);
     }
     
-    
+    /* Hebergement */
+
+    .offredata img{
+        height: 300px;
+        width: 100%;
+    }
