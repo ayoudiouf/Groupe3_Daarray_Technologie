@@ -296,14 +296,18 @@
     let nom = document.getElementById("nom");
     let message = document.getElementById("message");
 
+    let tabTmp = [];
     function ajoutCommentaire() {
       if (nom.value != "" && message.value != "") {
         let commentaire = {
+          id_formation: formation.id,
           nom: nom.value,
           message: message.value,
         };
-
-        localStorage.setItem("commentaire", JSON.stringify(commentaire));
+        formation.commentaires.push(commentaire);
+        tabTmp = JSON.parse(localStorage.getItem("commentaire"));
+        tabTmp.push(commentaire);
+        localStorage.setItem("commentaire", JSON.stringify(tabTmp));
         nom.value = "";
         message.value = "";
         Swal.fire({
@@ -319,5 +323,7 @@
         });
       }
     }
+
+    // la fonction qui affiche les commentaires de la formation
   </script>
 </html>
