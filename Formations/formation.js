@@ -289,6 +289,8 @@ let formations = [
 ]
 
 // debut de la logique de l'injection des formations
+
+
 let allcards = document.getElementById('all-cards');
 function AfficherFormations() {
     formations.forEach(formation => {
@@ -314,7 +316,7 @@ function AfficherFormations() {
                             </div>
                         </div>
                         <div class="card-button">
-                            <button>Voir plus</button>
+                            <button onclick="detailFormation(${formation.id})">Voir plus</button>
                         </div>
                     </div>
                 </div>
@@ -324,6 +326,13 @@ function AfficherFormations() {
 AfficherFormations()
 // fin de la logique de l'injection des formations
 
+// la fonction qui affiche les detail de la formation
+function detailFormation(id) {
+    alert(id)
+    FindFormation(id);
+    // console.log(FindFormation(id));
+    // window.location.href = "details_formation.html";
+}
 
 
 
@@ -335,7 +344,7 @@ let go = document.getElementById('go');
 // go.addEventListener('click', () => {
 //     RechercherFormations(champs_recherche.value)
 // })
-champs_recherche.addEventListener('input',()=>{
+champs_recherche.addEventListener('input', () => {
     RechercherFormations(champs_recherche.value)
 })
 
@@ -367,7 +376,7 @@ function RechercherFormations(recherche) {
                                 </div>
                             </div>
                             <div class="card-button">
-                                <button>Voir plus</button>
+                                <button onclick="detailFormation(${formation.id})">Voir plus</button>
                             </div>
                         </div>
                     </div>
@@ -381,7 +390,7 @@ function RechercherFormations(recherche) {
             title: 'Oops...',
             text: 'La recherche est introuvable',
         })
-        champs_recherche.value="";
+        champs_recherche.value = "";
         AfficherFormations()
     }
 }
@@ -390,11 +399,11 @@ function RechercherFormations(recherche) {
 
 // la fonction qui filtre les formations par etat(payant ou gratuit)
 
-function filtrer(filtre){
+function filtrer(filtre) {
     allcards.innerHTML = "";
-    if(filtre!="tout"){
+    if (filtre != "tout") {
         formations.forEach(formation => {
-            if (formation.etat.toLowerCase()==filtre.toLowerCase()){
+            if (formation.etat.toLowerCase() == filtre.toLowerCase()) {
                 allcards.innerHTML += `
                 <div class="col">
                             <div class="card" id="card">
@@ -417,15 +426,28 @@ function filtrer(filtre){
                                     </div>
                                 </div>
                                 <div class="card-button">
-                                    <button>Voir plus</button>
+                                    <button onclick="detailFormation(${formation.id})">Voir plus</button>
                                 </div>
                             </div>
                         </div>
                 `;
             }
         })
-    }else{
+    } else {
         AfficherFormations();
     }
 
 }
+
+// la fonction qui recherche une formation par id 
+function FindFormation(id) {
+    formations.forEach(formation => {
+        if (formation.id == id) {
+            // return formation;
+            // return formation;
+            console.log(formation)
+            alert(formation.titre)
+        }
+    })
+}
+
