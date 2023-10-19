@@ -7,8 +7,15 @@
 .card-text span{
     color: #ff7f00;
 }
-@media screen and (max-width:767px){
-    p{
-        width: 100rem;
-    }
+.card-body{
+    width: 60%;
+    margin: 0 auto;
 }
+@media screen and (max-width:767px){
+    /* .card-body{
+        margin: 0 auto;
+    } */
+    .card{
+        margin: 0 auto;
+    } 
+    }
