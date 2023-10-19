@@ -158,7 +158,16 @@
           >
             Commenter
           </button>
-          <button>Liste commentaires</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="listerCommentaire()"
+            id="comment-button"
+          >
+            Liste commentaires
+          </button>
         </div>
       </div>
     </div>
@@ -174,7 +183,7 @@
       aria-hidden="true"
     >
       <div class="modal-dialog modal-dialog-centered" id="cadre">
-        <div class="modal-content" id="">
+        <div class="modal-content">
           <button
             type="button"
             class="btn-close"
@@ -200,6 +209,35 @@
       </div>
     </div>
 
+    <!-- popop liste commentaires -->
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+
+          <div class="pcommentaire px-3" id="display-comments">
+            <!-- <h4 class="text-center">Liste Commentaire</h4>
+            <hr /> -->
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- ========== Start footer ========== -->
     <footer id="footer">
       <div class="footer-item">
@@ -296,7 +334,7 @@
     let nom = document.getElementById("nom");
     let message = document.getElementById("message");
 
-    let tabTmp = [];
+    let tabTmp = []; //le tableau temporaire pour eviter l'écrasement du localStorage
     function ajoutCommentaire() {
       if (nom.value != "" && message.value != "") {
         let commentaire = {
@@ -325,5 +363,20 @@
     }
 
     // la fonction qui affiche les commentaires de la formation
+    let display_comments=document.getElementById('display-comments'); 
+    function listerCommentaire() {
+      display_comments.innerHTML=' <h4 class="text-center">Liste Commentaire</h4><hr/>'
+      let allcomments = JSON.parse(localStorage.getItem("commentaire"));
+      allcomments.forEach((element) => {
+        if (element.id_formation == formation.id) {
+          console.log(element.nom, element.message);
+          display_comments.innerHTML+=` <div class="commentaire">
+              <span>${element.nom}</span>
+              <p>${element.message}</p>
+            </div>
+            `
+        }
+      });
+    }
   </script>
 </html>
