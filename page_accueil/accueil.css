@@ -17,13 +17,24 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     
 }
 
+/* animation text */
+.ml2 {
+    font-weight: 900;
+    font-size: 2em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
 
 
 
 /* benneir page accueil */
 #banner{
     /* background: linear-gradient(0deg, #0000004b, #0000008f), url("https://www.lebow.drexel.edu/sites/default/files/styles/landing_wide/public/2022-08/econ-comp-sci-425x560.jpg.webp?itok=aqNA8WgI"); */
-    height: 80vh;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -32,16 +43,24 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     color: white;
 
 }
+#banner img {
+    height: 500px;
+    width: 100%;
+}
 
 /* presentation Brief  */
 .homebrief{
-    border:  1px solid red;
+    /* border:  1px solid red; */
     width: 50%;
     position: relative;
-    bottom: 60px;
+    bottom: 120px;
     left: 470px;
     background-color: white;
     height: 280px;
+        font-size: 25px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px #ff8000b0;
+    
 }
 .homebrief .brieftitle{
 /* border: 1px solid gold; */
@@ -49,7 +68,7 @@ padding-left: 40px;
 
 }
 .homebrief .brieftitle h5{
-    font-size: 28px;
+    /* font-size: 28px; */
     height: 100px;
 }
 
@@ -88,14 +107,14 @@ padding-left: 40px;
     /* service carte */
     .bigdiv{
         border: 3px solid var(--orangelogo);
-        height: 340px;
+        height: 360px;
         width: 230px;
         margin-top: 40px;
         
     }
     .petitdiv{
         border: 2px solid gray;
-        height: 350px;
+        height: 370px;
         width: 240px;
         background-color: white;
         position: relative;
@@ -132,6 +151,13 @@ padding-left: 40px;
 
     }
     .formationtitle button, .formationbottom button {
+        background-color: var(--orangelogo);
+    }
+    
+    .formationtitle button:hover{
+        background-color: var(--orangelogo);
+    }
+    .formationbottom button:hover{
         background-color: var(--orangelogo);
     }
     
@@ -172,3 +198,88 @@ padding-left: 40px;
         height: 300px;
         width: 100%;
     }
+    
+
+    /* Detail services */
+    .detailserices img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .detailserices .bigdiv{
+        border: 3px solid var(--orangelogo);
+        height: 160px;
+        width: 470px;
+        margin-top: 40px;
+        position: relative;
+        left: 380px;
+        bottom: 80px;
+        
+    }
+    .detailserices .petitdiv{
+        border: 2px solid gray;
+        height: 170px;
+        width: 480px;
+        background-color: white;
+        position: relative;
+        bottom: 40px;
+        right: 30px;
+    }
+
+    .detailserices .servicetitle {
+        height: 130px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .detailcontainer{
+    /* border:  1px solid red; */
+    /* width: 50%; */
+    /* position: relative; */
+    /* bottom: 120px; */
+    /* left: 470px; */
+    background-color: white;
+    height: 600px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.356);
+ 
+}
+.detailcontainer .brieftitle{
+/* border: 1px solid gold; */
+padding-left: 40px;
+
+}
+.detailcontainer .brieftitle h5{
+    font-size: 28px;
+    height: 100px;
+}
+
+.detailcontainer .briefbottom{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 110px;
+   
+
+}
+.detailcontainer .brieftext{
+    /* border: 1px solid green; */
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+  
+/* padding: 0 20px; */
+
+}
+.detailcontainer .brieftext p{
+  font-size: 18px;
+}
+.detailcontainer .briefhr{
+    border-top: 5px solid var(--orangelogo);
+    width: 10%;
+    padding-left: 10px;
+}
+.detailpricing h5{
+    color: var(--orangelogo);
+    font-weight: 400;
+}
