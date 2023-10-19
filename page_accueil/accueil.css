@@ -1,0 +1,323 @@
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ width: auto;
+}
+:root {
+    --orangelogo : #FF7F00;
+}
+.colortitle{
+ 
+    color: var(--orangelogo);  
+}
+.colorbackground{
+    background-color: var(--orangelogo); 
+    
+}
+
+/* animation text */
+.ml2 {
+    font-weight: 900;
+    font-size: 2em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
+
+
+/* benneir page accueil */
+#banner{
+    /* background: linear-gradient(0deg, #0000004b, #0000008f), url("https://www.lebow.drexel.edu/sites/default/files/styles/landing_wide/public/2022-08/econ-comp-sci-425x560.jpg.webp?itok=aqNA8WgI"); */
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    background-position: center;
+    color: white;
+
+}
+#banner img {
+    height: 500px;
+    width: 100%;
+}
+
+/* presentation Brief  */
+.homebrief{
+    /* border:  1px solid red; */
+    width: 50%;
+    position: relative;
+    bottom: 120px;
+    left: 470px;
+    background-color: white;
+    height: 280px;
+        font-size: 25px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 25px #ff8000b0;
+    
+}
+.homebrief .brieftitle{
+/* border: 1px solid gold; */
+padding-left: 40px;
+
+}
+.homebrief .brieftitle h5{
+    /* font-size: 28px; */
+    height: 100px;
+}
+
+.homebrief .briefbottom{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 110px;
+   
+
+}
+.homebrief .brieftext{
+    /* border: 1px solid green; */
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+  
+/* padding: 0 20px; */
+
+}
+.homebrief .briefhr{
+    border-top: 5px solid var(--orangelogo);
+    width: 20%;
+    padding-left: 10px;
+  
+
+}
+
+/* Nos services */
+
+    /* service baniere */
+.servicetitle {
+    height: 160px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+    /* service carte */
+    .bigdiv{
+        border: 3px solid var(--orangelogo);
+        height: 360px;
+        width: 230px;
+        margin-top: 40px;
+        
+    }
+    .petitdiv{
+        border: 2px solid gray;
+        height: 370px;
+        width: 240px;
+        background-color: white;
+        position: relative;
+        bottom: 30px;
+        right: 40px;
+    }
+
+    .tofservice{
+        height: 90px; 
+        width: 90px;
+        
+        border-radius: 50%;
+        border: 5px solid white;
+        border-left-color: var(--orangelogo);
+        border-bottom-color: var(--orangelogo); 
+        margin: 0 auto;
+        
+    }
+    .tofservice img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    }
+
+    .carteconatiner{
+        position: relative;
+        bottom: 40px;
+        left: 40px;
+    }
+
+    /* formation page */
+    /* fORMATION TITLE */
+    .formationtitle {
+
+    }
+    .formationtitle button, .formationbottom button {
+        background-color: var(--orangelogo);
+    }
+    
+    .formationtitle button:hover{
+        background-color: var(--orangelogo);
+    }
+    .formationbottom button:hover{
+        background-color: var(--orangelogo);
+    }
+    
+    .formationtitle img {
+        height: 250px;
+        width: 100%;
+    }
+    /* Temoignage carte */
+    .temoignegecarte img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .card-img-bottom{
+        height: 100px;
+       
+        border-radius: 50%;
+    }
+
+    /* chiffre clés */
+    .blockchiffre{
+        /* border: 2px solid gray; */
+        height: 120px;
+        width: 3px
+    }
+    .blockchiffre h6{
+      font-size: 18px;
+    }
+
+    /*  team*/
+    .teamborder{
+        border-bottom: 2px solid var(--orangelogo);
+    }
+    
+    /* Hebergement */
+
+    .offredata img{
+        height: 300px;
+        width: 100%;
+    }
+    
+
+    /* Detail services */
+    .detailserices img{
+        height: 250px;
+        width: 100%;
+    }
+
+    .detailserices .bigdiv{
+        border: 3px solid var(--orangelogo);
+        height: 160px;
+        width: 470px;
+        margin-top: 40px;
+        position: relative;
+        left: 380px;
+        bottom: 80px;
+        
+    }
+    .detailserices .petitdiv{
+        border: 2px solid gray;
+        height: 170px;
+        width: 480px;
+        background-color: white;
+        position: relative;
+        bottom: 40px;
+        right: 30px;
+    }
+
+    .detailserices .servicetitle {
+        height: 130px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    .detailcontainer{
+    /* border:  1px solid red; */
+    /* width: 50%; */
+    /* position: relative; */
+    /* bottom: 120px; */
+    /* left: 470px; */
+    background-color: white;
+    height: 600px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.356);
+ 
+}
+.detailcontainer .brieftitle{
+/* border: 1px solid gold; */
+padding-left: 40px;
+
+}
+.detailcontainer .brieftitle h5{
+    font-size: 28px;
+    height: 100px;
+}
+
+.detailcontainer .briefbottom{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 110px;
+   
+
+}
+.detailcontainer .brieftext{
+    /* border: 1px solid green; */
+    font-size: 16px;
+    width: 80%;
+    margin-left: 30px;
+  
+/* padding: 0 20px; */
+
+}
+.detailcontainer .brieftext p{
+  font-size: 18px;
+}
+.detailcontainer .briefhr{
+    border-top: 5px solid var(--orangelogo);
+    width: 10%;
+    padding-left: 10px;
+}
+.detailpricing h5{
+    color: var(--orangelogo);
+    font-weight: 400;
+}
+
+
+/* Media QUERY */
+
+@media (max-width:1023px){
+    .ml2 {
+        font-size: 1.8em;
+      }
+      .homebrief{
+        /* border:  1px solid red; */
+        width: 50%;
+        position: relative;
+        bottom: 110px;
+        left: 320px;
+        background-color: white;
+        height: 280px;
+            font-size: 25px;
+            border-radius: 10px;
+            box-shadow: 6px 6px 25px #ff8000b0;
+        
+    }
+    .bigdiv{
+        border: 3px solid var(--orangelogo);
+        height: 360px;
+        width: 220px;
+        margin-top: 40px;
+        
+    }
+    .petitdiv{
+        border: 2px solid gray;
+        height: 370px;
+        width: 230px;
+        background-color: white;
+        position: relative;
+        bottom: 30px;
+        right: 40px;
+    }
+}
