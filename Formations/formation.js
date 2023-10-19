@@ -10,37 +10,37 @@ let formations = [
             {
                 id: 1,
                 titre: "Introduction",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/cWoq5znh0vw?si=HHkYjaCtT-dbg8Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cWoq5znh0vw?si=HHkYjaCtT-dbg8Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Variables et type",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kj2NJpO9Z7I?si=0FQCSUysBwb5AcGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kj2NJpO9Z7I?si=0FQCSUysBwb5AcGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Constante",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/UnqJwiIPbag?si=6iVH7OqOlqhatiQ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UnqJwiIPbag?si=6iVH7OqOlqhatiQ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Boucles",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4C4lwPM1ESk?si=Z4pOB5hOfxMuUyD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/4C4lwPM1ESk?si=Z4pOB5hOfxMuUyD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 5,
                 titre: "Fonctions",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/UXdvpKRQsx8?si=fVUIwGQC-hMAnj_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UXdvpKRQsx8?si=fVUIwGQC-hMAnj_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 6,
                 titre: "Tableaux",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/l30p6dYg0yQ?si=M4LRv5LwZBsmS8yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/l30p6dYg0yQ?si=M4LRv5LwZBsmS8yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 7,
                 titre: "Conlucsion",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/e-vReV3nLxw?si=0Sv-V8V2Ie62KKRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/e-vReV3nLxw?si=0Sv-V8V2Ie62KKRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Gratuit",
@@ -55,22 +55,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Diagrammes d'objets",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/WiXbRsQWArU?si=qB5-pVbaOU5-FvYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/WiXbRsQWArU?si=qB5-pVbaOU5-FvYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>>`
             },
             {
                 id: 2,
                 titre: "Diagramme de classes",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/StnSed-Euj0?si=lW5_Tt9q0IDEURp1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/StnSed-Euj0?si=lW5_Tt9q0IDEURp1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "TD Diagrammes de classes",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/0itTJ4r5uKI?si=FSZ4FjdcK18_-NfK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0itTJ4r5uKI?si=FSZ4FjdcK18_-NfK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Video 2 TD Diagramme de classes",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/StnSed-Euj0?si=yXCAgPptXgCTs3Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/StnSed-Euj0?si=yXCAgPptXgCTs3Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Payant",
@@ -85,22 +85,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Présentation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/dAUL0es8kRI?si=sNgKRmej9yDKcS00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dAUL0es8kRI?si=sNgKRmej9yDKcS00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Prérequis et impostances",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/aawdLOxoWq8?si=xablqtPaHWJuCsua" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/aawdLOxoWq8?si=xablqtPaHWJuCsua" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "C'est quoi le JS",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Scj75AA2qME?si=iK9EDAG9r1WYCe8m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Scj75AA2qME?si=iK9EDAG9r1WYCe8m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "API et Librairie",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/IPXxJFJaY8g?si=uXsud0qnGDu0iDXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IPXxJFJaY8g?si=uXsud0qnGDu0iDXj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Gratuit",
@@ -115,22 +115,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Présentation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/b6thG9lq2C0?si=pT7vExNGZFZXBi2W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/b6thG9lq2C0?si=pT7vExNGZFZXBi2W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "C'est quoi HTML",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/KzXUH1LKqsc?si=s1nyy_kEIdjm4TxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KzXUH1LKqsc?si=s1nyy_kEIdjm4TxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Structure de base",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/0VRwVvgc3VE?si=_gNze6JEAUqWeFSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0VRwVvgc3VE?si=_gNze6JEAUqWeFSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Télécharger Vscode",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/P5biY6vWN4k?si=FTxD7sXOoitO8pg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/P5biY6vWN4k?si=FTxD7sXOoitO8pg3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Gratuit",
@@ -145,22 +145,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Présentation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/3lt4jgC731c?si=B-G-4eE6R256rxBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3lt4jgC731c?si=B-G-4eE6R256rxBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "C'est quoi CSS",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/K1C9HNtEkvg?si=FHhhjqe0a6v7GnQZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/K1C9HNtEkvg?si=FHhhjqe0a6v7GnQZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Ou mettre du CSS",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/let17aSLfek?si=MOiFrv6LiRMHgmEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/let17aSLfek?si=MOiFrv6LiRMHgmEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Les sélecteurs CSS",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kCKCyyWT3B4?si=u6Xe2Z6Jkpwa2kVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/kCKCyyWT3B4?si=u6Xe2Z6Jkpwa2kVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Gratuit",
@@ -175,22 +175,22 @@ let formations = [
             {
                 id: 1,
                 titre: "C'est quoi angular",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/mg3-Owd5dhE?si=XO-Wb-T3yrmsw_iS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/mg3-Owd5dhE?si=XO-Wb-T3yrmsw_iS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Introduction",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/zTrlLZoPvLQ?si=C-9Qv27wsCfbbnh9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zTrlLZoPvLQ?si=C-9Qv27wsCfbbnh9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Préparation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/-Z4F8LHwuZA?si=s_nOugCiIVpLOG7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-Z4F8LHwuZA?si=s_nOugCiIVpLOG7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Ce qu'il faut savoir",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/z-YYljAix4k?si=YYez2jjwdCTGGcob" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/z-YYljAix4k?si=YYez2jjwdCTGGcob" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Payant",
@@ -205,22 +205,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Introduction",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ZsgJeEd3E0w?si=0INFjl0uPCIvMy4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZsgJeEd3E0w?si=0INFjl0uPCIvMy4D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Compréhension",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/YucPYBKTEkk?si=KIoUGt8Jb8KRjuBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/YucPYBKTEkk?si=KIoUGt8Jb8KRjuBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Installation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/3cEcQYQeo8c?si=dfX6kMENz9ENXDaZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/3cEcQYQeo8c?si=dfX6kMENz9ENXDaZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Réaliser un projet",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/_eG9Q2RRJVE?si=a4EodmkqTAque1WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_eG9Q2RRJVE?si=a4EodmkqTAque1WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Payant",
@@ -235,22 +235,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Introduction",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/NT0s0aOHu0Q?si=dzwrU0QTSSVodyLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NT0s0aOHu0Q?si=dzwrU0QTSSVodyLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Installation",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/KuEg1hajUmM?si=LrSgMOQJNpSQlVyi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KuEg1hajUmM?si=LrSgMOQJNpSQlVyi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Syntaxe JSX",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/TAuiJHmvPAQ?si=xRPgzqZxVV1-WfXP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/TAuiJHmvPAQ?si=xRPgzqZxVV1-WfXP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Chargement",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ktms8hrJ-Tk?si=JIOJAGwPqbT-skjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ktms8hrJ-Tk?si=JIOJAGwPqbT-skjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Payant",
@@ -265,22 +265,22 @@ let formations = [
             {
                 id: 1,
                 titre: "Cours SQL",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/V_jNPU3ewvs?si=eQ2fglzxOEeT7DTp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/V_jNPU3ewvs?si=eQ2fglzxOEeT7DTp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 2,
                 titre: "Découverte partie 1",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/xqIJhYVE33M?si=tzFqhJFRFx7_KRFH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xqIJhYVE33M?si=tzFqhJFRFx7_KRFH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 3,
                 titre: "Découverte parie 2",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/S9qzTGe2MNc?si=6QlzEZmEdzcb0Xgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9qzTGe2MNc?si=6QlzEZmEdzcb0Xgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             },
             {
                 id: 4,
                 titre: "Découverte partie 3",
-                contenu: `<iframe width="560" height="315" src="https://www.youtube.com/embed/FlmQT9W3lxM?si=VcOhYQkpftA8QLX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+                contenu: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/FlmQT9W3lxM?si=VcOhYQkpftA8QLX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
             }
         ],
         etat: "Payant",

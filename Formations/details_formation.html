@@ -86,11 +86,7 @@
             </div>
             <div class="col-lg-7 m-auto p-0">
                 <div class="displayvideo" id="displayvideo">
-                    <iframe width="100%" height="100%"
-                        src="https://www.youtube.com/embed/7lMXMLeawug?si=12myHERzRgltYqNl" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mr3E8TveNJU?si=TgZnYDtH1HLLSztP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -231,17 +227,18 @@
     let description = document.getElementById('description');
     description.innerHTML = formation.description;
 
-
     // la fonction qui lance la video sur laquelle on a cliqué
-    function displayMe(){
-        
+    let screenDisplay = document.getElementById('displayvideo');
+    function displayMe(id){
+        for (let i = 0; i < formation.videos.length; i++) {
+            if(formation.videos[i].id==id){
+                screenDisplay.innerHTML=formation.videos[i].contenu;
+            }
+        }
     }
 
     // la video active
     let activevideo = document.querySelectorAll('.video');
-
-    // changement video
-    let screenDisplay = document.getElementById('displayvideo');
 
 </script>
 

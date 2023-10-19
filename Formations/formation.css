@@ -124,10 +124,13 @@
 .displayvideo {
     height: 400px;
     width: 100%;
-    background-color: green;
+    background-color: rgba(0, 0, 0, 0.062);
     border-radius: 10px;
 }
 
+iframe{
+    border-radius: 10px;
+}
 .video {
     height: 60px;
     margin-top: 20px;
