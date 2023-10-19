@@ -9,6 +9,9 @@
     color: #ff7f00;
     font-weight: 700;
 }
+.contain span{
+    color: #ff7f00;
+}
 .form{
     /* border: 2px slategray solid; */
     margin-bottom: 30px;
@@ -16,6 +19,9 @@
     /* margin-left: 50px; */
    margin: 0 auto;
 }
-.form button{
+/* .form button{
     text-align: center;
+} */
+#boutton{
+   width: 25%;
 }
