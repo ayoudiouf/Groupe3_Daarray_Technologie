@@ -86,7 +86,11 @@
             </div>
             <div class="col-lg-7 m-auto p-0">
                 <div class="displayvideo" id="displayvideo">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mr3E8TveNJU?si=TgZnYDtH1HLLSztP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/mr3E8TveNJU?si=TgZnYDtH1HLLSztP" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -96,11 +100,7 @@
                     A propos de cette <span>Formation</span>
                 </h4>
             </div>
-            <p id="description">Cette formation PHP s’adresse aux développeurs et chefs de projet amenés à gérer de A à
-                Z un projet web
-                dynamique en PHP. Le public visé désire donc connaître les fonctionnalités essentielles d’un site ou
-                d’une application web : la structure « brute » mais aussi le traitement des formulaires, les paramètres
-                de navigation, l’accès à la base de données, les notions de sécurité…</p>
+            <p id="description"></p>
 
             <div class="fnotes">
                 <span>Notez la formation</span>
@@ -127,11 +127,6 @@
         </div>
     </div>
     <!-- popup -->
-    <!-- Button trigger modal
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Launch static backdrop modal
-    </button> -->
-
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -229,17 +224,28 @@
 
     // la fonction qui lance la video sur laquelle on a cliqué
     let screenDisplay = document.getElementById('displayvideo');
-    function displayMe(id){
+    function displayMe(id) {
         for (let i = 0; i < formation.videos.length; i++) {
-            if(formation.videos[i].id==id){
-                screenDisplay.innerHTML=formation.videos[i].contenu;
+            if (formation.videos[i].id == id) {
+                screenDisplay.innerHTML = formation.videos[i].contenu;
             }
         }
     }
 
     // la video active
     let activevideo = document.querySelectorAll('.video');
+    activevideo.forEach(element => {
+        element.addEventListener('click', () => {
+            activevideo.forEach(elem => {
 
+
+                elem.classList.remove('activevideo')
+
+            })
+
+            element.classList.add('activevideo')
+        })
+    })
 </script>
 
 </html>

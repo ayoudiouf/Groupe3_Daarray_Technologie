@@ -134,6 +134,7 @@ iframe{
 .video {
     height: 60px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .video span {
@@ -156,6 +157,16 @@ iframe{
     text-align: center;
 
 }
+
+/* active video  */
+.activevideo{
+    border: 1px #FF7F00 solid;
+    border-radius: 10px;
+}
+
+
+
+
 
 .fpropos,.fcommentaire {
     height: 400px;
