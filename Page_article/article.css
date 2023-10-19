@@ -121,11 +121,14 @@ footer .footer-item:nth-child(1) .social-link i {
 /***** End footer *****/
 .article{
     display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 150px;
 
 }
 .banner_article img{
     width: 100%;
-    height: 400px;
+    height: 500px;
     margin-top: -38px;
     
 }
@@ -202,8 +205,11 @@ h1{
     width: 100%;
     margin-left: 50px;
 }
-.mycomment{
-    height: 50px;
+.reply{
+    background-color: #FF7F00;
+    margin-top: 5px;
+    color: white;
+    border: none;
 }
 h4{
     text-decoration: underline;
@@ -218,15 +224,26 @@ h4{
 }
 .cookies1{
     display: flex;
+    width: 60%;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 350px;
     background-color: #FF7F00;
+    border-radius: 20px;
+    box-shadow: 1px;
+    margin-top: 30px;
 }
 .butt{
- background-color: black;
- color: white;
+ 
+ padding: 10px;
+ margin-left: 90px;
+ border: none;
+}
+.butt button{
+color: white;
+background-color: #000000;
+border-radius: 15px;
 }
 
 /***** reponsive code *****/
