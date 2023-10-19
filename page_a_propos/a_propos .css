@@ -77,9 +77,10 @@
     margin: 0 auto;
     margin-top: -5vh;
 }
-@media screen) {
+@media screen {(max-width: 600px;)
     .fatima{
-        
+        font-size: 20%;
+       margin: 0;
 
     }
 }
