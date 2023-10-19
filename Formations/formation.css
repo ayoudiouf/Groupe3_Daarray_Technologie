@@ -371,3 +371,49 @@
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.pcommentaire{
+/* text-align: center; */
+}
+.pcommentaire h4{
+font-weight: bold;
+}
+.pcommentaire hr{
+    color: #FF7F00;
+    border-bottom: 5px #FF7F00 solid;
+    opacity: 1;
+}
+.pcommentaire button{
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF7F00;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+#staticBackdrop{
+    /* width: 50%; */
+    /* background-color: red; */
+    /* margin: 0 auto; */
+    
+}
+
+#cadre{
+    /* width: 100%; */
+    /* background-color: green; */
+}
+
+#label{
+    /* color: #FF7F00; */
+    font-weight: bold;
+}
+
+input#nom, textarea#message{
+    border: 2px #FF7F00 solid;
+    resize: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}

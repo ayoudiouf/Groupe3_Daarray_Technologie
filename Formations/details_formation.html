@@ -113,7 +113,11 @@
             </div>
             <div class="col-lg-7 m-auto p-0">
                 <div class="displayvideo">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7lMXMLeawug?si=12myHERzRgltYqNl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/7lMXMLeawug?si=12myHERzRgltYqNl" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -123,7 +127,10 @@
                     A propos de cette <span>Formation</span>
                 </h4>
             </div>
-            <p>Cette formation PHP s’adresse aux développeurs et chefs de projet amenés à gérer de A à Z un projet web dynamique en PHP. Le public visé désire donc connaître les fonctionnalités essentielles d’un site ou d’une application web : la structure « brute » mais aussi le traitement des formulaires, les paramètres de navigation, l’accès à la base de données, les notions de sécurité…</p>
+            <p>Cette formation PHP s’adresse aux développeurs et chefs de projet amenés à gérer de A à Z un projet web
+                dynamique en PHP. Le public visé désire donc connaître les fonctionnalités essentielles d’un site ou
+                d’une application web : la structure « brute » mais aussi le traitement des formulaires, les paramètres
+                de navigation, l’accès à la base de données, les notions de sécurité…</p>
 
             <div class="fnotes">
                 <span>Notez la formation</span>
@@ -143,11 +150,55 @@
             </h4>
             <hr>
             <div class="comments-button d-flex justify-content-between">
-                <button>Commenter</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    id="comment-button">Commenter</button>
                 <button>Liste commentaires</button>
             </div>
         </div>
     </div>
+    <!-- popup -->
+    <!-- Button trigger modal
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" id="cadre">
+            <div class="modal-content" id="">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- <div class="modal-header">
+                    
+                </div>
+                <div class="modal-body">
+                   
+                </div>
+                <div class="modal-footer">
+                   
+                </div> -->
+                <div class="pcommentaire px-3">
+                    <h4 class="text-center">
+                        Formulaire Commentaire
+                    </h4>
+                    <hr>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label" id="label">Nom</label>
+                        <input type="email" class="form-control" id="nom"
+                        >
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-labe" id="label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button>Envoyer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- ========== Start footer ========== -->
     <footer id="footer">
         <div class="footer-item">
