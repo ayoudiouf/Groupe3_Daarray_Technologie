@@ -1,6 +1,6 @@
 .contain img{
     width: 100%;
-    height: 400px;
+    height: 500px;
    
 }
 .contain h3{
@@ -10,9 +10,12 @@
     font-weight: 700;
 }
 .form{
-    border: 2px slategray solid;
+    /* border: 2px slategray solid; */
     margin-bottom: 30px;
     width: 70%;
     /* margin-left: 50px; */
    margin: 0 auto;
+}
+.form button{
+    text-align: center;
 }
