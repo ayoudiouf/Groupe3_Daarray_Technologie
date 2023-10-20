@@ -142,7 +142,16 @@
             <i class="bi bi-star" id="star" onclick="starPosition(4)"></i>
             <i class="bi bi-star" id="star" onclick="starPosition(5)"></i>
           </div>
-          <button>Voir notes</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="listerNotes()"
+            id="comment-button"
+          >
+            Voir notes
+          </button>
         </div>
       </div>
       <div class="fcommentaire">
@@ -236,6 +245,9 @@
         </div>
       </div>
     </div>
+
+    <!-- popup notes  -->
+
     <!-- ========== Start footer ========== -->
     <footer id="footer">
       <div class="footer-item">
@@ -383,15 +395,16 @@
     // le script qui gère le système d'etoile
     // let rating_star = document.getElementById("rating-star");
     let stars = document.querySelectorAll("#star");
-    let notesTmp=[];//le tableau temporaire des notes, pour eviter l'écrasement des notes du localStorage
+    let notesTmp = []; //le tableau temporaire des notes, pour eviter l'écrasement des notes du localStorage
+    // la fonction qui ajoute les notes dans le local storage
     function starPosition(id) {
       let note = {
-        id_formation:formation.id,
-        note:id
+        id_formation: formation.id,
+        note: id,
       };
-      notesTmp=[JSON.parse(localStorage.getItem("notes"))];
-      notesTmp.push(note)
-      localStorage.setItem("notes",JSON.stringify(notesTmp));
+      notesTmp =JSON.parse(localStorage.getItem("notes"));
+      notesTmp.push(note);
+      localStorage.setItem("notes", JSON.stringify(notesTmp));
       stars.forEach((star) => {
         star.setAttribute("class", "bi bi-star");
       });
@@ -399,6 +412,26 @@
       for (let i = 0; i < id; i++) {
         stars[i].setAttribute("class", "bi bi-star-fill");
       }
+    }
+
+    // la fonction qui affiche les notes de la formation
+    // let display_comments = document.getElementById("display-comments");
+    function listerNotes() {
+      display_comments.innerHTML =
+        ' <h4 class="text-center">Liste Notes</h4><hr/>';
+      let allnotes = JSON.parse(localStorage.getItem("notes"));
+      console.log(allnotes)
+      allnotes.forEach((element) => {
+        if (element.id_formation == formation.id) {
+          // console.log(element.nom, element.message);
+          console.log(element)
+          display_comments.innerHTML += ` <div class="note">
+              <span>${element.note}</span>
+              
+            </div>
+            `;
+        }
+      });
     }
   </script>
 </html>
