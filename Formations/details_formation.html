@@ -107,7 +107,7 @@
     </div>
 
     <div class="fdetail mt-5">
-      <div class="row">
+      <div class="row ">
         <div class="col-lg-4 m-auto p-0">
           <div class="allvideos" id="allvideos">
             <h4>VIDEOS</h4>
@@ -135,14 +135,23 @@
 
         <div class="fnotes">
           <span>Notez la formation</span>
-          <div class="rating-star">
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
+          <div class="rating-star" id="rating-star">
+            <i class="bi bi-star" id="star" onclick="starPosition(1)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(2)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(3)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(4)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(5)"></i>
           </div>
-          <button>Voir notes</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            onclick="listerNotes()"
+            id="comment-button"
+          >
+            Voir notes
+          </button>
         </div>
       </div>
       <div class="fcommentaire">
@@ -232,12 +241,13 @@
           <div class="pcommentaire px-3" id="display-comments">
             <!-- <h4 class="text-center">Liste Commentaire</h4>
             <hr /> -->
-           
-           
           </div>
         </div>
       </div>
     </div>
+
+    <!-- popup notes  -->
+
     <!-- ========== Start footer ========== -->
     <footer id="footer">
       <div class="footer-item">
@@ -285,8 +295,10 @@
   </body>
   <!-- sweet alerts  -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="formation.js"></script>
 
+  <!-- le fichier formation.js qui contient le tableau  d'object et la logique -->
+  <script src="formation.js"></script>
+  <!-- le script qui gère une formation  -->
   <script>
     // affichage des informations de la formation
     let formation_title = document.getElementById("formation-title");
@@ -363,18 +375,61 @@
     }
 
     // la fonction qui affiche les commentaires de la formation
-    let display_comments=document.getElementById('display-comments'); 
+    let display_comments = document.getElementById("display-comments");
     function listerCommentaire() {
-      display_comments.innerHTML=' <h4 class="text-center">Liste Commentaire</h4><hr/>'
+      display_comments.innerHTML =
+        ' <h4 class="text-center">Liste Commentaire</h4><hr/>';
       let allcomments = JSON.parse(localStorage.getItem("commentaire"));
       allcomments.forEach((element) => {
         if (element.id_formation == formation.id) {
           console.log(element.nom, element.message);
-          display_comments.innerHTML+=` <div class="commentaire">
+          display_comments.innerHTML += ` <div class="commentaire">
               <span>${element.nom}</span>
               <p>${element.message}</p>
             </div>
-            `
+            `;
+        }
+      });
+    }
+
+    // le script qui gère le système d'etoile
+    // let rating_star = document.getElementById("rating-star");
+    let stars = document.querySelectorAll("#star");
+    let notesTmp = []; //le tableau temporaire des notes, pour eviter l'écrasement des notes du localStorage
+    // la fonction qui ajoute les notes dans le local storage
+    function starPosition(id) {
+      let note = {
+        id_formation: formation.id,
+        note: id,
+      };
+      notesTmp =JSON.parse(localStorage.getItem("notes"));
+      notesTmp.push(note);
+      localStorage.setItem("notes", JSON.stringify(notesTmp));
+      stars.forEach((star) => {
+        star.setAttribute("class", "bi bi-star");
+      });
+      // alert('etoile '+id+" cliquée");
+      for (let i = 0; i < id; i++) {
+        stars[i].setAttribute("class", "bi bi-star-fill");
+      }
+    }
+
+    // la fonction qui affiche les notes de la formation
+    // let display_comments = document.getElementById("display-comments");
+    function listerNotes() {
+      display_comments.innerHTML =
+        ' <h4 class="text-center">Liste Notes</h4><hr/>';
+      let allnotes = JSON.parse(localStorage.getItem("notes"));
+      // console.log(allnotes)
+      allnotes.forEach((element) => {
+        if (element.id_formation == formation.id) {
+          // console.log(element.nom, element.message);
+          // console.log(element)
+          display_comments.innerHTML += ` <div class="note">
+              <p> ${element.note} <span>étoiles</span></p>
+              
+            </div>
+            `;
         }
       });
     }
