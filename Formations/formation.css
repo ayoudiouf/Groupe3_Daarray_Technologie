@@ -313,6 +313,13 @@ font-weight: bold;
 .commentaire p{
 font-size: 14px;
 }
+
+
+/* rating systeme */
+
+#star{
+    cursor: pointer;
+}
 /* 
 .banniere {
     height: 500px;

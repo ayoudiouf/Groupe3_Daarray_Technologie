@@ -135,12 +135,12 @@
 
         <div class="fnotes">
           <span>Notez la formation</span>
-          <div class="rating-star">
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
-            <i class="bi bi-star"></i>
+          <div class="rating-star" id="rating-star">
+            <i class="bi bi-star" id="star" onclick="starPosition(1)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(2)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(3)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(4)"></i>
+            <i class="bi bi-star" id="star" onclick="starPosition(5)"></i>
           </div>
           <button>Voir notes</button>
         </div>
@@ -232,8 +232,6 @@
           <div class="pcommentaire px-3" id="display-comments">
             <!-- <h4 class="text-center">Liste Commentaire</h4>
             <hr /> -->
-           
-           
           </div>
         </div>
       </div>
@@ -285,8 +283,13 @@
   </body>
   <!-- sweet alerts  -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="formation.js"></script>
 
+  <!-- le script qui gère la notation par étoile -->
+  <script src="note.js"></script>
+
+  <!-- le fichier formation.js qui contient le tableau  d'object et la logique -->
+  <script src="formation.js"></script>
+  <!-- le script qui gère une formation  -->
   <script>
     // affichage des informations de la formation
     let formation_title = document.getElementById("formation-title");
@@ -363,18 +366,19 @@
     }
 
     // la fonction qui affiche les commentaires de la formation
-    let display_comments=document.getElementById('display-comments'); 
+    let display_comments = document.getElementById("display-comments");
     function listerCommentaire() {
-      display_comments.innerHTML=' <h4 class="text-center">Liste Commentaire</h4><hr/>'
+      display_comments.innerHTML =
+        ' <h4 class="text-center">Liste Commentaire</h4><hr/>';
       let allcomments = JSON.parse(localStorage.getItem("commentaire"));
       allcomments.forEach((element) => {
         if (element.id_formation == formation.id) {
           console.log(element.nom, element.message);
-          display_comments.innerHTML+=` <div class="commentaire">
+          display_comments.innerHTML += ` <div class="commentaire">
               <span>${element.nom}</span>
               <p>${element.message}</p>
             </div>
-            `
+            `;
         }
       });
     }
