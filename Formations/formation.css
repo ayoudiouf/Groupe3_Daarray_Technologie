@@ -320,6 +320,16 @@ font-size: 14px;
 #star{
     cursor: pointer;
 }
+
+.note p{
+    color: orange;
+    font-size: 20px;
+}
+.note span{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
 /* 
 .banniere {
     height: 500px;

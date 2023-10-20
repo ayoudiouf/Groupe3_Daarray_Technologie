@@ -420,13 +420,13 @@
       display_comments.innerHTML =
         ' <h4 class="text-center">Liste Notes</h4><hr/>';
       let allnotes = JSON.parse(localStorage.getItem("notes"));
-      console.log(allnotes)
+      // console.log(allnotes)
       allnotes.forEach((element) => {
         if (element.id_formation == formation.id) {
           // console.log(element.nom, element.message);
-          console.log(element)
+          // console.log(element)
           display_comments.innerHTML += ` <div class="note">
-              <span>${element.note}</span>
+              <p> ${element.note} <span>étoiles</span></p>
               
             </div>
             `;
