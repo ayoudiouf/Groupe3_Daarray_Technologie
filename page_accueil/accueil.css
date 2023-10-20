@@ -181,19 +181,27 @@ padding-left: 40px;
     }
 
     /* chiffre clés */
-    .blockchiffre{
-        /* border: 2px solid gray; */
-        height: 120px;
-    }
-    .blockchiffre h6{
-      font-size: 16px;
-    }
+   .chiffrecart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
     
+   }
+   .chiffrecart .chiffreitem{
+   
+    /* width: 240px; */
+   }
+   .chiffrecart h6{
+    font-size: 20px;
 
+   }
     /*  team*/
     .teamborder{
         border-bottom: 2px solid var(--orangelogo);
     }
+    .teamcontainer .image img {
+        height: 20rem;
+       }
     
     /* Hebergement */
 
@@ -370,9 +378,23 @@ padding-left: 40px;
             left: 100px;
             background-color: white;
             height: 280px;
-            
         }
+        .chiffrecart{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 10px;
+            
+           }
+           .chiffrecart .chiffreitem{
+           
+            width: 80%x;
+           }
+           .chiffrecart h6{
+            font-size: 20px;
+        
+           }
       }
+
       @media (max-width:768px){
         .homebrief{
             /* border:  1px solid red; */
@@ -419,26 +441,34 @@ padding-left: 40px;
           }
         .teamcontainer .carousel-item {
 
-          height: 380px;
+          height: 400px;
           width: 100%;
           padding-right: 40px;
         }
         .teamcontainer .carousel-item .image {
-           display: none;
+           /* display: none; */
         
         }
         .teamcontainer .carousel-item P {
-           font-size: 15px;
+           font-size: 14px;
+           
         }
         .teamcontainer .image img {
-          
+         height: 10rem;
         }
         .teamcontainer .carousel-inner{
             padding-right: 80px;
         }
+        .teamcontainer .d-flex{
+            /* display: block; */
+            border: 1px solid rebeccapurple;
+            height: 400px;
+            
+        }
         .carousel-item {
-            height: 400px; 
+            height: 800px; 
           }
+
 
       }
       @media (max-width:734px){
@@ -451,7 +481,6 @@ padding-left: 40px;
            
             height: 370px;
             width: 280px;
-           
             
         }
         .petitdiv{
@@ -464,5 +493,20 @@ padding-left: 40px;
             padding-left: 200px;
           }
 
-
+      }
+      @media (max-width:448px){
+        .chiffrecart{
+            display: grid;
+            grid-template-columns: 1fr  ;
+            gap: 10px;
+            
+           }
+           .chiffrecart .chiffreitem{
+           
+            width: 100%;
+           }
+           .chiffrecart h6{
+            font-size: 20px;
+        
+           }
       }
