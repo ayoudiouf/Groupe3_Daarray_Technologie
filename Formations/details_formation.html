@@ -284,9 +284,6 @@
   <!-- sweet alerts  -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-  <!-- le script qui gère la notation par étoile -->
-  <script src="note.js"></script>
-
   <!-- le fichier formation.js qui contient le tableau  d'object et la logique -->
   <script src="formation.js"></script>
   <!-- le script qui gère une formation  -->
@@ -381,6 +378,27 @@
             `;
         }
       });
+    }
+
+    // le script qui gère le système d'etoile
+    // let rating_star = document.getElementById("rating-star");
+    let stars = document.querySelectorAll("#star");
+    let notesTmp=[];//le tableau temporaire des notes, pour eviter l'écrasement des notes du localStorage
+    function starPosition(id) {
+      let note = {
+        id_formation:formation.id,
+        note:id
+      };
+      notesTmp=[JSON.parse(localStorage.getItem("notes"))];
+      notesTmp.push(note)
+      localStorage.setItem("notes",JSON.stringify(notesTmp));
+      stars.forEach((star) => {
+        star.setAttribute("class", "bi bi-star");
+      });
+      // alert('etoile '+id+" cliquée");
+      for (let i = 0; i < id; i++) {
+        stars[i].setAttribute("class", "bi bi-star-fill");
+      }
     }
   </script>
 </html>
