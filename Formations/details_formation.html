@@ -402,6 +402,7 @@
         id_formation: formation.id,
         note: id,
       };
+      
       notesTmp =JSON.parse(localStorage.getItem("notes"));
       notesTmp.push(note);
       localStorage.setItem("notes", JSON.stringify(notesTmp));
@@ -419,6 +420,7 @@
     function listerNotes() {
       display_comments.innerHTML =
         ' <h4 class="text-center">Liste Notes</h4><hr/>';
+        // if(localStorage.getItem("notes")){}
       let allnotes = JSON.parse(localStorage.getItem("notes"));
       // console.log(allnotes)
       allnotes.forEach((element) => {
