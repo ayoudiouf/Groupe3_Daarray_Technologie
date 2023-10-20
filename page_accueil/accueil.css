@@ -548,7 +548,7 @@ padding-left: 40px;
             margin-left: 60px;
         }
       }
-      @media (max-width:)
+     
       @media (max-width:448px){
         .chiffrecart{
             display: grid;
@@ -604,6 +604,32 @@ padding-left: 40px;
         .carousel-inner {
             display: inline-block;
             padding-left: 80px;
+          }
+      }
+      @media (max-width:390px){
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            padding-left: 50px;
+        }
+        .homebrief{
+            /* border:  1px solid red; */
+            width: 100%;
+            position: relative;
+            bottom: 110px;
+            left: 0px;
+            background-color: white;
+            height: 320px;
+            
+        }
+        .formationcarte{
+            margin-left: 0px;
+            width: 18rem;
+        }
+        .carousel-inner {
+            display: inline-block;
+            padding-left: 35px;
           }
       }
 
