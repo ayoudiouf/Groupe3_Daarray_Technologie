@@ -164,7 +164,7 @@ a:hover {
             }
         .secondHr {
          text-align: center;
-         background-color: white !important;
+         background-color: white ;
          margin-top: 50px;
          box-shadow: 4px 4px 6px 6px gainsboro;
          border-radius: 20px;
@@ -178,7 +178,7 @@ a:hover {
                         }
         .firstHr {
          width: 40%;
-         background-color: white !important;
+         background-color: white ;
         padding: 30px;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px orange;
