@@ -151,11 +151,6 @@ footer .footer-item:nth-child(1) .social-link i {
 
 
 /***** End footer *****/
-<<<<<<< HEAD:header_footer/header_footer.css
-
-
-
-=======
 .article{
     display: flex;
     width: 100%;
@@ -285,7 +280,6 @@ color: white;
 background-color: #000000;
 border-radius: 15px;
 }
->>>>>>> 253c45490b9d15fb0e3174c86e432083f6a1fdf9:Page_article/article.css
 
 /***** reponsive code *****/
 @media screen and (max-width:767px) {
@@ -315,9 +309,6 @@ border-radius: 15px;
        text-align: center;
     }
 }
-<<<<<<< HEAD:header_footer/header_footer.css
-/***** End reponsive code *****/
-=======
 /* /***** End reponsive code ***** */
  @media screen and (max-width:767px){
 .article {
@@ -476,4 +467,3 @@ border-radius: 15px;
         border-radius: 15px;
     }
  }
->>>>>>> 253c45490b9d15fb0e3174c86e432083f6a1fdf9:Page_article/article.css
