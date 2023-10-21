@@ -3,20 +3,31 @@
     height: 500px;
    
 }
-/* 
-body{
-  background-color: #EFEDE0;
+.color{
+  color: #ff7f00;
+  text-align: center;
 }
-.banner img{
-
+.col-lg-6 input{
+  margin-bottom: 20px;
 }
-
+.col-lg-6 label{
+  margin-bottom: 20px;
+}
 .form-group{
   margin-bottom: 20px;
 }
-
-.form-group input{
-  margin-top: 10px;
-} */
-
-
+.boutton{
+  background-color: #ff7f00;
+}
+.container{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 3px 10px 4px #ff7f00;
+}
+button{
+  width: 100%;
+  background-color: #ff7f00;
+  color: white;
+  margin-bottom: 20px;
+}

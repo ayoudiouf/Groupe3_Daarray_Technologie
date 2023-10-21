@@ -98,61 +98,98 @@
       <!-- <h3 class="pt-4"><span>Formulaire </span>de Contact</h3> -->
     </div>
     
-    <section class="container">
-      <header class="form" style="color: orange;">Formulaire d'inscription</header>
-      <form action="#" class="form">
-          <div class="column">
-              <div class="input-box">
-                <label>Nom:</label>
-                <input   required />
-              </div>
-              <div class="input-box">
-                <label>Prénom:</label>
-                <input  required />
-              </div>
-            </div>
-        <div class="column">
-          <div class="input-box">
-            <label>E-mail:</label>
-            <input required />
+    <div class="container">
+
+      <div class="row">
+
+          <div class="col-xl-8 offset-xl-2">
+
+              <h1 class="color">
+                  Formulaire de Contact
+              </h1>
+              <form id="contact-form" method="post" action="contact.php" role="form">
+
+                  <div class="messages"></div>
+
+                  <div class="controls">
+                    <div class="containerform">
+                    <div class="form0">
+                      <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_name" ><strong>Nom</strong>: <span class="text-danger"> *</span></label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Nom " required="required"
+                                    data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_lastname"><strong>Email</strong> : <span class="text-danger"> *</span></label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Email " required="required"
+                                    data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="code_postal"><strong>Code Postal </strong>: <span class="text-danger"> *</span></label>
+                                <input id="code_postal" type="number" name="code" class="form-control" placeholder="90210 " required="required"
+                                    data-error="Valid code is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                              <label for="form_name"> <strong>Sujet</strong>: <span class="text-danger"> *</span></label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="sujet" required="required"
+                                  data-error="Firstname is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                              <label for="form_email"><strong>Telephone </strong>: <span class="text-danger"> *</span></label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="telephone " required="required"
+                                  data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      
+                     
+                          
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="form_lastname"><strong>Région / Pays </strong>: <span class="text-danger"> *</span></label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="pays " required="required"
+                                    data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                      <div class="form-group">
+                          <label for="form_message" ><strong>Message </strong>: *</label>
+                          <textarea id="form_message " style="margin-top: 10px;"="message" class="form-control"rows="4" required="required"
+                              data-error="Please, leave us a message."></textarea>
+                          <div class="help-block with-errors"></div>
+                    </div>
+                    <button>Envenyez</button>
+                   
+                  </div>
+              </form>
+
           </div>
-          <div class="input-box">
-            <label>Telephone:</label>
-            <input  required />
-          </div>
+                      <!-- /.8 -->
         </div>
-        <div class="column">
-          <div class="input-box">
-            <label>Adress:</label>
-            <input   required />
-          </div>
-          <div class="input-box">
-            <label>Code Postal:</label>
-            <input  required />
-          </div>
-        </div>
-        <button onclick="popup()">Envoyez </button> 
-      </form>
-    </section>
-    
-    
-  <!-- JavaScript -->
-  
- <script src="js/script.js"></script>
+        <!-- /.row-->
 
-
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
-  function popup(){
-
-      Swal.fire({
-     icon: 'error',
-     title: 'Oops...',
-     text: 'Something went wrong!',
-     footer: '<a href="">Why do I have this issue?</a>'
-   })
-  }
-</script>
+    </div>
     <!-- /.container-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
