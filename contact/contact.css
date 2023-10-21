@@ -3,29 +3,31 @@
     height: 500px;
    
 }
-.contain h3{
-    text-align: center;
-    align-items: center;
-    color: #ff7f00;
-    font-weight: 700;
+.color{
+  color: #ff7f00;
+  text-align: center;
 }
-.contain span{
-    color: #ff7f00;
+.col-lg-6 input{
+  margin-bottom: 20px;
 }
-.form{
-    /* border: 2px slategray solid; */
-    margin-bottom: 30px;
-    width: 70%;
-    /* margin-left: 50px; */
-   margin: 0 auto;
+.col-lg-6 label{
+  margin-bottom: 20px;
 }
-/* .form button{
-    text-align: center;
-} */
-#boutton{
-   width: 25%;
+.form-group{
+  margin-bottom: 20px;
 }
-#mess{
-    margin-left: 9%;
+.boutton{
+  background-color: #ff7f00;
 }
-
+.container{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 3px 10px 4px #ff7f00;
+}
+button{
+  width: 100%;
+  background-color: #ff7f00;
+  color: white;
+  margin-bottom: 20px;
+}
