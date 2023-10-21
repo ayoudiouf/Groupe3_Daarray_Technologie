@@ -150,6 +150,9 @@ padding-left: 40px;
     .formationtitle {
 
     }
+    .formationcarte .card{
+        width: 20rem;
+     }
     .formationtitle button, .formationbottom button {
         background-color: var(--orangelogo);
     }
@@ -173,24 +176,47 @@ padding-left: 40px;
     }
     .card-img-bottom{
         height: 100px;
-       
+       width: 80%;
         border-radius: 50%;
     }
 
     /* chiffre clés */
-    .blockchiffre{
-        /* border: 2px solid gray; */
-        height: 120px;
-        width: 3px
-    }
-    .blockchiffre h6{
-      font-size: 18px;
-    }
+   .chiffrecart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    
+   }
+   .chiffrecart .chiffreitem{
+   
+    /* width: 240px; */
+   }
+   .chiffrecart h6{
+    font-size: 20px;
 
+   }
     /*  team*/
     .teamborder{
         border-bottom: 2px solid var(--orangelogo);
+        
     }
+    
+    .teamcontainer .image img {
+        height: 20rem;
+       }
+       
+       .temoin .carousel-item {
+       /* padding-left: 100px; */
+       margin-left: 20px;
+      }
+      .seck{
+        /* background-color: #FF7F00; */
+      }
+      .seck2{
+       width: 80%;
+       margin-left: 90px;
+      }
+      
     
     /* Hebergement */
 
@@ -198,7 +224,10 @@ padding-left: 40px;
         height: 300px;
         width: 100%;
     }
-    
+    .carousel-inner {
+        display: inline-block;
+        /* padding-left: 60px; */
+      }
 
     /* Detail services */
     .detailserices img{
@@ -299,25 +328,424 @@ padding-left: 40px;
         left: 320px;
         background-color: white;
         height: 280px;
-            font-size: 25px;
-            border-radius: 10px;
-            box-shadow: 6px 6px 25px #ff8000b0;
         
     }
     .bigdiv{
         border: 3px solid var(--orangelogo);
-        height: 360px;
-        width: 220px;
+        height: 370px;
+        width: 200px;
         margin-top: 40px;
         
     }
     .petitdiv{
-        border: 2px solid gray;
-        height: 370px;
-        width: 230px;
-        background-color: white;
-        position: relative;
-        bottom: 30px;
-        right: 40px;
+      
+        height: 380px;
+        width: 210px;
+      
     }
 }
+
+@media (max-width:900px){
+    .ml2 {
+        font-size: 1.6em;
+      }
+      .formabottom{
+        margin-top: 20px;
+      }
+      .carousel-item {
+        height: 400px; /* Hauteur personnalisée pour les grands écrans */
+      }
+    .carteconatiner{
+        position: relative;
+        bottom: 40px;
+        left: 80px;
+    }
+    .bigdiv{
+       
+        height: 370px;
+        width: 230px;
+    }
+    
+    .petitdiv{
+        height: 380px;
+        width: 240px;
+
+    }
+    .teammember img{
+        height: 20px;
+    }
+     .blockchiffre{
+        /* border: 2px solid gray; */
+        height: 120px;
+        width: 3px
+    }
+    .blockchiffre h6{
+      font-size: 17px;
+    }
+      }
+      @media (max-width:848px){
+        .ml2 {
+            font-size: 1.5em;
+          }
+
+      }
+      @media (max-width:810px){
+        .homebrief{
+            /* border:  1px solid red; */
+            width: 70%;
+            position: relative;
+            bottom: 110px;
+            left: 100px;
+            background-color: white;
+            height: 280px;
+        }
+        .chiffrecart{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 10px;
+            
+           }
+           .chiffrecart .chiffreitem{
+           
+            width: 80%x;
+           }
+           .chiffrecart h6{
+            font-size: 20px;
+        
+           }
+      }
+
+      @media (max-width:768px){
+        .homebrief{
+            /* border:  1px solid red; */
+            width: 70%;
+            position: relative;
+            bottom: 110px;
+            left: 100px;
+            background-color: white;
+            height: 280px;
+            
+        }
+        .ml2 {
+            font-size: 1.5em;
+          }
+      }
+      @media (max-width:754px){
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 130px;
+        }
+        .bigdiv{
+           
+            height: 370px;
+            width: 280px;
+        }
+        .petitdiv{
+            height: 380px;
+            width: 290px;
+        }
+        .formationcarte{
+            margin-left: 100px;
+        }
+        .formationcarte .card{
+           width: 25rem;
+           margin-top: 20px;
+        }
+        .temoignegecarte{
+            display: none;
+        }
+        .carousel-inner {
+            display: inline-block;
+            padding-left: 200px;
+          }
+        .teamcontainer .carousel-item {
+
+          height: 400px;
+          width: 100%;
+          padding-right: 40px;
+        }
+        .teamcontainer .carousel-item .image {
+           display: none;
+        
+        }
+        .teamcontainer .carousel-item P {
+           font-size: 14px;
+           
+        }
+        .teamcontainer .image img {
+         height: 10rem;
+        }
+        .teamcontainer .carousel-inner{
+            padding-right: 80px;
+        }
+        .teamcontainer .d-flex{
+            /* display: block; */
+            /* border: 1px solid rebeccapurple; */
+            height: 400px;
+            
+        }
+        
+          .carousel-item {
+            height: 400px; /* Hauteur personnalisée pour les grands écrans */
+          }
+
+
+      }
+      @media (max-width:734px){
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 130px;
+        }
+        .bigdiv{
+           
+            height: 370px;
+            width: 280px;
+            
+        }
+        .petitdiv{
+            height: 380px;
+            width: 290px;
+    
+        }
+         .carousel-inner {
+            display: inline-block;
+            padding-left: 200px;
+          }
+          .carousel-item {
+            height: 400px; /* Hauteur personnalisée pour les grands écrans */
+          }
+
+      }
+      @media (max-width:600px){
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 130px;
+        }
+        .bigdiv{
+           
+            height: 370px;
+            width: 280px;
+            
+        }
+        .petitdiv{
+            height: 380px;
+            width: 290px;
+    
+        }
+         .carousel-inner {
+            display: inline-block;
+            padding-left: 160px;
+          }
+          .carousel-item {
+            height: 400px; /* Hauteur personnalisée pour les grands écrans */
+          }
+          .teamcontainer .image img {
+            height: 10rem;
+           }
+
+      }
+      @media (max-width:550px){
+        .homebrief{
+            /* border:  1px solid red; */
+            width: 80%;
+            position: relative;
+            bottom: 130px;
+            left: 60px;
+            background-color: white;
+            height: 280px;
+            
+        }
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            padding-left: 130px;
+        }
+        /* .formationcarte .card{
+            width: 24rem;
+            margin-top: 20px;
+         } */
+         .formationcarte{
+            margin-left: 60px;
+        }
+      }
+     
+      @media (max-width:448px){
+        .chiffrecart{
+            display: grid;
+            grid-template-columns: 1fr  ;
+            gap: 10px;
+            
+           }
+           .chiffrecart .chiffreitem{
+           
+            width: 100%;
+           }
+           .chiffrecart h6{
+            font-size: 20px; 
+           }
+           .homebrief{
+            /* border:  1px solid red; */
+            width: 100%;
+            position: relative;
+            bottom: 110px;
+            left: 0px;
+            background-color: white;
+            height: 290px;
+            
+        }
+        .ml2 {
+            font-size: 1.4em;
+          }
+          .formationcarte{
+            margin-left: 14px;
+        }
+        .formationcarte .card{
+           width: 24rem;
+           margin-top: 20px;
+        }
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            padding-left: 80px;
+        }
+       
+        .bigdiv{
+           
+            height: 370px;
+            width: 280px;
+            
+        }
+        .petitdiv{
+            height: 380px;
+            width: 290px;
+    
+        }
+        .carousel-inner {
+            display: inline-block;
+            padding-left: 80px;
+          }
+      }
+      @media (max-width:390px){
+        .carteconatiner{
+            position: relative;
+            bottom: 40px;
+            left: 0px;
+            padding-left: 50px;
+        }
+        .homebrief{
+            /* border:  1px solid red; */
+            width: 100%;
+            position: relative;
+            bottom: 110px;
+            left: 0px;
+            background-color: white;
+            height: 320px;
+            
+        }
+        .formationcarte{
+            margin-left: 0px;
+            width: 18rem;
+        }
+        .carousel-inner {
+            display: inline-block;
+            padding-left: 35px;
+          }
+      }
+
+
+      /* Media query popup */
+      @media (max-width:1023px){
+        .detailserices .bigdiv{
+            position: relative;
+            left: 200px;
+            bottom: 80px;
+        }
+        
+      .detailcontainer{
+        border:  1px solid red;
+        height: 800px;
+    }
+   
+      }
+
+      @media (max-width:900px){
+        .detailserices .bigdiv{
+            border: 3px solid var(--orangelogo);
+            height: 120px;
+            width: 270px;
+            margin-top: 40px;
+            position: relative;
+            left: 80px;
+            bottom: 80px;
+            
+        }
+        .detailserices .petitdiv{
+            border: 2px solid gray;
+            height: 130px;
+            width: 280px;
+            background-color: white;
+            position: relative;
+            bottom: 40px;
+            right: 30px;
+        }
+        .detailcontainer{
+            border:  1px solid red;
+            height: 1100px;
+        }
+        /* .detailserices .bigdiv{
+            position: relative;
+            left: 200px;
+            bottom: 80px;
+        } */
+    
+        .detailserices .servicetitle {
+            height: 100px;
+            padding-top: 20px;
+            padding-left: 40px;
+        }
+        .detailcontainer .brieftext p{
+            font-size: 16px;
+          }
+          .detailpricing p{
+            font-size: 12px;
+          }
+      
+          .detailpricing h5{
+            font-size: 18px;
+          }
+          }
+          @media (max-width:448px){
+            .detailcontainer{
+                border:  1px solid red;
+                height: 1300px;
+            }
+          }
+          @media (max-width:375px){
+            .detailcontainer{
+                border:  1px solid red;
+                height: 1600px;
+            }
+            .detailserices .bigdiv{
+                border: 3px solid var(--orangelogo);
+                height: 120px;
+                width: 170px; 
+            }
+            .detailserices .petitdiv{
+             
+                width: 180px;
+                background-color: white;
+            }
+          }
+          @media (max-width:375px){
+            .detailcontainer{
+                border:  1px solid red;
+                height: 2000px;
+            }
+          }
+
+      
