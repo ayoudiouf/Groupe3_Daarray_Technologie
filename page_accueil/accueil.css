@@ -204,16 +204,14 @@ padding-left: 40px;
     .teamcontainer .image img {
         height: 20rem;
        }
-       .teammember{
-      
-       }
+       
        .temoin .carousel-item {
        /* padding-left: 100px; */
        margin-left: 20px;
       }
-      /* .seck{
-        background-color: #FF7F00;
-      } */
+      .seck{
+        /* background-color: #FF7F00; */
+      }
       .seck2{
        width: 80%;
        margin-left: 90px;
@@ -366,13 +364,15 @@ padding-left: 40px;
        
         height: 370px;
         width: 230px;
-       
-        
     }
+    
     .petitdiv{
         height: 380px;
         width: 240px;
 
+    }
+    .teammember img{
+        height: 20px;
     }
      .blockchiffre{
         /* border: 2px solid gray; */
@@ -481,7 +481,7 @@ padding-left: 40px;
         }
         .teamcontainer .d-flex{
             /* display: block; */
-            border: 1px solid rebeccapurple;
+            /* border: 1px solid rebeccapurple; */
             height: 400px;
             
         }
