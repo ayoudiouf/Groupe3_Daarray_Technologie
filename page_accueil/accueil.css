@@ -371,9 +371,55 @@ padding-left: 40px;
         width: 240px;
 
     }
-    .teammember img{
-        height: 20px;
+    .teamcontainer .card{
+        /* display: block; */
+        border: 1px solid rebeccapurple;
+        /* height: 400px; */
+        width: 75%;
+        display: block;
+        height: 350px;
+        
     }
+   
+    .teamcontainer .image img {
+        height: 10rem;
+        border: 1px solid gold;
+       }
+    .teamcontainer .card-body{
+        /* display: none; */
+        display: inline-block;
+        border: 1px solid green;
+        height: 300px;
+      
+        
+    }
+    .teamcontainer p{
+        /* display: block; */
+        border: 1px solid red;
+        font-size: 14px;
+      
+        
+    }
+    .teamcontainer h5, h6{
+       
+      font-size: 15px;
+        
+    }
+    .teamcontainer p{
+       
+        font-size: 13px;
+        width: 100%;
+      
+        
+    }
+    .teamcontainer .card-text{
+       
+        /* font-size: 13px; */
+        width: 100%;
+      
+        
+    }
+   
      .blockchiffre{
         /* border: 2px solid gray; */
         height: 120px;
@@ -457,38 +503,25 @@ padding-left: 40px;
         }
         .carousel-inner {
             display: inline-block;
-            padding-left: 200px;
+            /* padding-left: 200px; */
           }
-        .teamcontainer .carousel-item {
-
-          height: 400px;
-          width: 100%;
-          padding-right: 40px;
-        }
-        .teamcontainer .carousel-item .image {
-           display: none;
-        
-        }
-        .teamcontainer .carousel-item P {
-           font-size: 14px;
-           
-        }
-        .teamcontainer .image img {
-         height: 10rem;
-        }
-        .teamcontainer .carousel-inner{
-            padding-right: 80px;
-        }
-        .teamcontainer .d-flex{
-            /* display: block; */
-            /* border: 1px solid rebeccapurple; */
-            height: 400px;
-            
-        }
+          .seck2{
+            width: 80%;
+            margin-left: 0px;
+           }
         
           .carousel-item {
             height: 400px; /* Hauteur personnalisée pour les grands écrans */
           }
+          .teamcontainer .card{
+            /* display: block; */
+            border: 1px solid rebeccapurple;
+            /* height: 400px; */
+            width: 100%;
+            display: block;
+            height: 350px;
+            
+        }
 
 
       }
@@ -511,7 +544,7 @@ padding-left: 40px;
         }
          .carousel-inner {
             display: inline-block;
-            padding-left: 200px;
+            /* padding-left: 200px; */
           }
           .carousel-item {
             height: 400px; /* Hauteur personnalisée pour les grands écrans */
@@ -524,6 +557,19 @@ padding-left: 40px;
             bottom: 40px;
             left: 130px;
         }
+        .teamcontainer .card{
+            /* display: block; */
+            border: 1px solid rebeccapurple;
+            /* height: 400px; */
+            width: 95%;
+            display: block;
+            height: 350px;
+            
+        }
+        .teamcontainer .image img {
+            height: 8rem;
+            border: 1px solid gold;
+           }
         .bigdiv{
            
             height: 370px;
@@ -537,15 +583,12 @@ padding-left: 40px;
         }
          .carousel-inner {
             display: inline-block;
-            padding-left: 160px;
+            /* padding-left: 160px; */
           }
           .carousel-item {
             height: 400px; /* Hauteur personnalisée pour les grands écrans */
           }
-          .teamcontainer .image img {
-            height: 10rem;
-           }
-
+         
       }
       @media (max-width:550px){
         .homebrief{
@@ -595,6 +638,17 @@ padding-left: 40px;
             left: 0px;
             background-color: white;
             height: 290px;
+        }
+        .teamcontainer p{
+            /* display: block; */
+            border: 1px solid red;
+            font-size: 11px;
+          
+            
+        }
+        .teamcontainer h5, .teamcontainer  h6{
+           
+          font-size: 12px;
             
         }
         .ml2 {
@@ -627,8 +681,21 @@ padding-left: 40px;
         }
         .carousel-inner {
             display: inline-block;
-            padding-left: 80px;
+            /* padding-left: 80px; */
           }
+          .teamcontainer .card{
+            /* display: block; */
+            border: 1px solid rebeccapurple;
+            /* height: 400px; */
+            width: 85%;
+            display: block;
+            height: 350px;
+            
+        }
+        .teamcontainer .image img {
+            height: 4rem;
+            border: 1px solid gold;
+           }
       }
       @media (max-width:390px){
         .carteconatiner{
