@@ -462,11 +462,12 @@ function filtrer(filtre) {
 function FindFormation(id) {
     formations.forEach(formation => {
         if (formation.id == id) {
-            
+            // alert('done')
             window.location.href="details_formation.html";
            
             // alert('hell')
-            localStorage.setItem('formationSelected',JSON.stringify(formation))
+            
+            localStorage.setItem('formationSelected',JSON.stringify(formation));
         }
     })
 }
