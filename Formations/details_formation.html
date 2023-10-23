@@ -355,6 +355,10 @@
           message: message.value,
         };
         formation.commentaires.push(commentaire);
+        if (localStorage.getItem("commentaire") === null) {
+          localStorage.setItem("commentaire", tabTmp);
+        }
+        
         if (localStorage.getItem("commentaire") !== null) {
 
           tabTmp = JSON.parse(localStorage.getItem("commentaire"));
@@ -407,6 +411,9 @@
         id_formation: formation.id,
         note: id,
       };
+      if (localStorage.getItem("notes") === null) {
+          localStorage.setItem("notes",JSON.stringify(notesTmp));
+        }
       if (localStorage.getItem("notes") !== null) {
         notesTmp = JSON.parse(localStorage.getItem("notes"));
         notesTmp.push(note);
