@@ -711,10 +711,21 @@ padding-left: 40px;
             left: 0px;
             padding-left: 50px;
         }
+        .teamcontainer .card{
+            /* display: block; */
+            /* border: 1px solid rebeccapurple; */
+            /* height: 400px; */
+            /* width: 85%;
+            display: block;
+            height: 350px; */
+            margin-left: 0px;
+            
+        }
         .temoin{
             margin-left: 0px;
             
         }
+     
         .teamcontainer p{
             /* display: block; */
             /* border: 1px solid red; */
@@ -744,6 +755,9 @@ padding-left: 40px;
         .carousel-inner {
             display: inline-block;
             padding-left: 35px;
+          }
+          .ml2 {
+            font-size: 2rem;
           }
       }
 
