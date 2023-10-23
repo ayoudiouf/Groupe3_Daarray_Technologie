@@ -601,6 +601,9 @@ padding-left: 40px;
             height: 280px;
             
         }
+        .temoin{
+            margin-left: 100px;
+        }
         .carteconatiner{
             position: relative;
             bottom: 40px;
@@ -639,10 +642,13 @@ padding-left: 40px;
             background-color: white;
             height: 290px;
         }
+        .temoin{
+            margin-left: 50px;
+        }
         .teamcontainer p{
             /* display: block; */
-            border: 1px solid red;
-            font-size: 11px;
+            /* border: 1px solid red; */
+            font-size: 12px;
           
             
         }
@@ -690,6 +696,7 @@ padding-left: 40px;
             width: 85%;
             display: block;
             height: 350px;
+            margin-left: 20px;
             
         }
         .teamcontainer .image img {
@@ -704,6 +711,22 @@ padding-left: 40px;
             left: 0px;
             padding-left: 50px;
         }
+        .temoin{
+            margin-left: 0px;
+            
+        }
+        .teamcontainer p{
+            /* display: block; */
+            /* border: 1px solid red; */
+            font-size: 8px;
+            width: 100%;
+          
+            
+        }
+        .teamcontainer .image img {
+            height: 3rem;
+            /* border: 1px solid gold; */
+           }
         .homebrief{
             /* border:  1px solid red; */
             width: 100%;
